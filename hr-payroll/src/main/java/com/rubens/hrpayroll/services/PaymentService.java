@@ -2,7 +2,8 @@ package com.rubens.hrpayroll.services;
 
 import com.rubens.hrpayroll.entities.Payment;
 import com.rubens.hrpayroll.entities.Worker;
-import com.rubens.hrpayroll.feignclients.WorkerFeigncClient;
+
+import com.rubens.hrpayroll.feignclients.WorkerFeignClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -10,7 +11,7 @@ import org.springframework.stereotype.Service;
 public class PaymentService {
 
     @Autowired
-    private WorkerFeigncClient workerFeignClient;
+    private WorkerFeignClient workerFeignClient;
 
     public Payment getPayment(long workerId, int days) {
 
