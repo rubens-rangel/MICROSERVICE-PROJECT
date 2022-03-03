@@ -1,6 +1,7 @@
 package com.rubens.hrpayroll.resources;
 
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.rubens.hrpayroll.entities.Payment;
 import com.rubens.hrpayroll.services.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +18,7 @@ public class PaymentResource {
     @Autowired
     private PaymentService service;
 
-  //  @HystrixCommand(fallbackMethod = "getPaymentAlternative")
+    @HystrixCommand(fallbackMethod = "getPaymentAlternative")
     @GetMapping(value = "/{workerId}/days/{days}")
     public ResponseEntity<Payment> getPayment(@PathVariable Long workerId, @PathVariable Integer days) {
         Payment payment = service.getPayment(workerId, days);
