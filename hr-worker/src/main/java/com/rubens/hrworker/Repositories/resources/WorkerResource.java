@@ -3,6 +3,7 @@ package com.rubens.hrworker.Repositories.resources;
 import com.rubens.hrworker.Repositories.WorkerRepository;
 import com.rubens.hrworker.entities.Worker;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.core.env.Environment;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+@RefreshScope
 @RestController
 @RequestMapping(value = "/workers")
 public class WorkerResource {
