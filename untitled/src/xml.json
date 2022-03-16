@@ -1,0 +1,302 @@
+{
+  "orderId": "03-461388681-01",
+  "customerId": "03-4914339132-1",
+  "purchaseDate": "2014-09-18T11:39:49.017-03:00",
+  "visitorIp": "200.180.175.150",
+  "visitorId": "-2134357641805611786",
+  "saleChannel": "INTERNET",
+  "businessUnit": "10",
+  "location": "3000",
+  "sessionCreationDate": "2014-09-18T11:39:49.017-03:00",
+  "applicationVersion": "checkoutWL",
+  "isMarketplace": "false",
+  "brandInfo": {
+    "brandID": "03"
+  },
+  "deliveries": [
+    {
+      "deliveryID": "357854836",
+      "orderId": "03-461388681-01",
+      "deliveryType": "VENDA",
+      "status": {
+        "statusId": "AAP",
+        "statusDescription": "Aguardando Aprovacao"
+      },
+      "totalAmount": "25.89",
+      "totalDiscountAmount": "0.00",
+      "billingAddressId": "03-1989127302-1",
+      "deliveryAddressId": "03-1989127302-1",
+      "orderLineList": [
+        {
+          "orderLineId": "357854836-1",
+          "locationLine": "3171",
+          "sku": "7998589",
+          "skuType": "1",
+          "quantity": "1",
+          "listPrice": "19.99",
+          "salePrice": "19.99",
+          "unconditionalDiscountAmount": "0.00",
+          "conditionalDiscountAmount": "0.00",
+          "freightInfo": {
+            "chargedAmount": "5.90",
+            "actualAmount": "5.90",
+            "commercialAmount": "0",
+            "freightTime": "13",
+            "pickupLeadTime": "0",
+            "otmContractId": "GERAL"
+          },
+          "stockType": "IN_STOCK",
+          "leadTime": "0",
+          "properties": {
+            "GIFT_ADDRESS_FLAG": "N",
+            "PREPAY": "Y",
+            "PRODUCT_SKU_REFERENCE": "7956779"
+          },
+          "lineType": "NF-Venda Normal Seguro RF-L",
+          "skuName": "Película Husky Ultra Resistência - iPhone 5C - Invisível de Alta Definição - HD"
+        }
+      ],
+      "paymentList": [
+        {
+          "billPayment": {
+            "paymentId": "357854836-1",
+            "amountDue": "25.89",
+            "dueDate": "2014-09-23T23:39:49.045-03:00",
+            "location": "03",
+            "status": "AAP"
+          }
+        }
+      ],
+      "freightAmount": {
+        "chargedAmount": "5.90",
+        "actualAmount": "5.90",
+        "freightTime": "13",
+        "pickupLeadTime": "0",
+        "otmContractId": "GERAL"
+      },
+      "freightDeliveryType": "NORMAL",
+      "wareHouseId": "98",
+      "subInventory": "9801",
+      "targetSystem": "UMBRELLA"
+    },
+    {
+      "deliveryID": "357854837",
+      "orderId": "03-461388681",
+      "deliveryType": "VENDA",
+      "status": {
+        "statusId": "AAP",
+        "statusDescription": "Aguardando Aprovacao"
+      },
+      "totalAmount": "53.50",
+      "totalDiscountAmount": "0.00",
+      "billingAddressId": "03-1989127302-1",
+      "deliveryAddressId": "03-1989127302-1",
+      "marketPlaceDeliveryInfo": {
+        "partnerId": "9550755000134",
+        "partnerName": "AAAAAAAAAAA"
+      },
+      "orderLineList": [
+        {
+          "orderLineId": "357854837-1",
+          "locationLine": "3171",
+          "sku": "7956779",
+          "skuType": "1",
+          "quantity": "1",
+          "listPrice": "35.90",
+          "salePrice": "35.90",
+          "unconditionalDiscountAmount": "0.00",
+          "conditionalDiscountAmount": "0.00",
+          "freightInfo": {
+            "chargedAmount": "17.60",
+            "actualAmount": "17.60",
+            "commercialAmount": "0",
+            "freightTime": "20",
+            "pickupLeadTime": "0",
+            "otmContractId": "GERAL"
+          },
+          "marketPlaceLineInfo": {
+            "partnerSku": "7956779",
+            "comission": "16.00",
+            "daysToExpire": "0"
+          },
+          "stockType": "IN_STOCK",
+          "leadTime": "0",
+          "properties": {
+            "GIFT_ADDRESS_FLAG": "N",
+            "PREPAY": "Y"
+          },
+          "lineType": "NF-Venda Normal-L",
+          "skuName": "Devia Bi-Color - Capa para iPhone 5C - Azul"
+        }
+      ],
+      "paymentList": [
+        {
+          "billPayment": {
+            "paymentId": "357854837-1",
+            "amountDue": "53.50",
+            "dueDate": "2014-09-23T23:39:49.074-03:00",
+            "location": "03",
+            "status": "AAP"
+          }
+        }
+      ],
+      "freightAmount": {
+        "chargedAmount": "17.60",
+        "actualAmount": "17.60",
+        "freightTime": "20",
+        "pickupLeadTime": "0",
+        "otmContractId": "GERAL"
+      },
+      "freightdeliveryType": "NORMAL",
+      "wareHouseId": "98",
+      "subInventory": "9801",
+      "targetSystem": "OM"
+    },
+    {
+      "deliveryID": "357854838",
+      "orderId": "03-461388681-02",
+      "deliveryType": "VENDA",
+      "status": {
+        "statusId": "AAP",
+        "statusDescription": "Aguardando Aprovacao"
+      },
+      "totalAmount": "25.89",
+      "totalDiscountAmount": "0.00",
+      "billingAddressId": "03-1989127302-1",
+      "deliveryAddressId": "03-1989127302-1",
+      "orderLineList": [
+        {
+          "orderLineId": "357854838-1",
+          "locationLine": "3171",
+          "sku": "7998589",
+          "skuType": "1",
+          "quantity": "2",
+          "listPrice": "19.99",
+          "salePrice": "19.99",
+          "unconditionalDiscountAmount": "0.00",
+          "conditionalDiscountAmount": "0.00",
+          "freightInfo": {
+            "chargedAmount": "5.90",
+            "actualAmount": "5.90",
+            "commercialAmount": "0",
+            "freightTime": "13",
+            "pickupLeadTime": "0",
+            "otmContractId": "GERAL"
+          },
+          "stockType": "IN_STOCK",
+          "leadTime": "0",
+          "properties": {
+            "GIFT_ADDRESS_FLAG": "N",
+            "PREPAY": "Y",
+            "PRODUCT_SKU_REFERENCE": "7956779"
+          },
+          "lineType": "NF-Venda Normal Seguro RF-L",
+          "skuName": "Película Husky Ultra Resistência - iPhone 5C - Invisível de Alta\n                        Definição - HD"
+        }
+      ],
+      "paymentList": [
+        {
+          "billPayment": {
+            "paymentId": "357854838-1",
+            "amountDue": "25.89",
+            "dueDate": "2014-09-23T23:39:49.045-03:00",
+            "location": "03",
+            "status": "AAP"
+          }
+        }
+      ],
+      "freightAmount": {
+        "chargedAmount": "5.90",
+        "actualAmount": "5.90",
+        "freightTime": "13",
+        "pickupLeadTime": "0",
+        "otmContractId": "GERAL"
+      },
+      "freightDeliveryType": "NORMAL",
+      "wareHouseId": "98",
+      "subInventory": "9801",
+      "targetSystem": "UMBRELLA"
+    },
+    {
+      "deliveryID": "357854839",
+      "orderId": "03-461388681",
+      "deliveryType": "VENDA",
+      "status": {
+        "statusId": "AAP",
+        "statusDescription": "Aguardando Aprovacao"
+      },
+      "totalAmount": "53.50",
+      "totalDiscountAmount": "0.00",
+      "billingAddressId": "03-1989127302-1",
+      "deliveryAddressId": "03-1989127302-1",
+      "marketPlaceDeliveryInfo": {
+        "partnerId": "9550755000134",
+        "partnerName": "AAAAAAAAAAA"
+      },
+      "orderLineList": [
+        {
+          "orderLineId": "357854839-1",
+          "locationLine": "3171",
+          "sku": "7956779",
+          "skuType": "1",
+          "quantity": "2",
+          "listPrice": "35.90",
+          "salePrice": "35.90",
+          "unconditionalDiscountAmount": "0.00",
+          "conditionalDiscountAmount": "0.00",
+          "freightInfo": {
+            "chargedAmount": "17.60",
+            "actualAmount": "17.60",
+            "commercialAmount": "0",
+            "freightTime": "20",
+            "pickupLeadTime": "0",
+            "otmContractId": "GERAL"
+          },
+          "marketPlaceLineInfo": {
+            "partnerSku": "7956779",
+            "comission": "16.00",
+            "daysToExpire": "0"
+          },
+          "stockType": "IN_STOCK",
+          "leadTime": "0",
+          "properties": {
+            "GIFT_ADDRESS_FLAG": "N",
+            "PREPAY": "Y"
+          },
+          "lineType": "NF-Venda Normal-L",
+          "skuName": "Devia Bi-Color - Capa para iPhone 5C - Azul"
+        }
+      ],
+      "paymentList": [
+        {
+          "billPayment": {
+            "paymentId": "357854839-1",
+            "amountDue": "53.50",
+            "dueDate": "2014-09-23T23:39:49.074-03:00",
+            "location": "03",
+            "status": "AAP"
+          }
+        }
+      ],
+      "freightAmount": {
+        "chargedAmount": "17.60",
+        "actualAmount": "17.60",
+        "freightTime": "20",
+        "pickupLeadTime": "0",
+        "otmContractId": "GERAL"
+      },
+      "freightDeliveryType": "NORMAL",
+      "wareHouseId": "98",
+      "subInventory": "9801",
+      "targetSystem": "OM"
+    }
+  ],
+  "properties": {
+    "PREPAY": "Y",
+    "BANKSLIP_CHOSEN": "BB",
+    "checkout-version": "1.57.17.628",
+    "clubedecompras": "false",
+    "tid": "CKT-616306f6-32fd-42f9-9810-3bae28e4b9e1"
+  }
+}
+

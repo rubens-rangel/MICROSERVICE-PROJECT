@@ -1,0 +1,243 @@
+{
+    "customerId": "02-92702435-1",
+    "customer": {
+        "customerId": "02-92702435-1",
+        "type": "PF",
+        "name": "Vinicius Boquimpani Tiberto",
+        "email": "viniciustiberto19@hotmail.com",
+        "documentNumber": "12379386781",
+        "gender": "M",
+        "dateBirth": "1987-02-26T03:00:00Z",
+        "addressList": [
+            {
+                "addressId": "02-211596794-1",
+                "customerId": "02-92702435-1",
+                "address": "Rua Octacílio Lattanzi",
+                "number": "42",
+                "additionalInfo": "Prox. Mercearia Glória",
+                "quarter": "Glória",
+                "city": "Macuco",
+                "state": "RJ",
+                "postalCode": "28545000",
+                "reference": "Prox. Mercearia Glória",
+                "contactName": "Vinicius Boquimpani Tiberto"
+            },
+            {
+                "addressId": "02-216302857-1",
+                "customerId": "02-92702435-1",
+                "address": "rua Caetano Boaretto",
+                "number": "207",
+                "additionalInfo": "Casa",
+                "quarter": "Volta do Umbigo",
+                "city": "Macuco",
+                "state": "RJ",
+                "postalCode": "28545000",
+                "reference": "Próximo a Fazenda Casa Branca",
+                "contactName": "José Carlos Tiberto"
+            }
+        ],
+        "phoneList": [
+            {
+                "countryCode": 55,
+                "areaCode": 22,
+                "number": "25542143",
+                "type": "HOME"
+            },
+            {
+                "countryCode": 55,
+                "areaCode": 22,
+                "number": "981808840",
+                "type": "MOBILE"
+            }
+        ]
+    },
+    "orderId": "02-RANGELJSON12",
+    "purchaseDate": "2021-03-09T17:38:30Z",
+    "visitorIp": "10.246.221.65",
+    "visitorId": -2239653448823698373,
+    "saleChannel": "ACOM",
+    "businessUnit": "10",
+    "location": "2554",
+    "mktOpn": "YSMESP",
+    "sessionCreationDate": "2021-03-09T17:38:30Z",
+    "applicationVersion": "checkoutWL",
+    "brandInfo": {
+        "brandID": "02"
+    },
+    "deliveries": [
+        {
+            "deliveryID": "282149031601",
+            "orderId": "02-RANGELJSON12",
+            "deliveryType": "VENDA",
+            "status": {
+                "status": "AAP",
+                "statusDescription": "Aguardando Aprovacao"
+            },
+            "totalAmount": 799.0,
+            "totalDiscountAmount": 0.0,
+            "billingAddressId": "02-211596794-1",
+            "deliveryAddressId": "02-216302857-1",
+            "orderLineList": [
+                {
+                    "orderLineId": "1",
+                    "sku": "119368937",
+                    "skuType": "1",
+                    "quantity": 1,
+                    "listPrice": 799.0,
+                    "salePrice": 799.0,
+                    "unconditionalDiscountAmount": 0.0,
+                    "conditionalDiscountAmount": 0.0,
+                    "promotionList": [
+                        {
+                            "promotionId": "ACOM3201410MKTP",
+                            "promotionName": "ACOM3201410MKTP",
+                            "campaign": "6001e5eab22fcb00aad2bcf5",
+                            "value": 7.99,
+                            "category": "CASHBACK",
+                            "isConditional": false
+                        }
+                    ],
+                    "freightInfo": {
+                        "chargedAmount": 0.0,
+                        "actualAmount": 0.0,
+                        "commercialAmount": 0.0,
+                        "freightTime": 10,
+                        "pickupLeadTime": 0,
+                        "otmContractId": "GERAL",
+                        "promotionList": [
+                            {
+                                "promotionId": "ACOM3221487FRT",
+                                "promotionName": null,
+                                "campaign": "60140073e1b80f0086776a22",
+                                "value": 29.99,
+                                "category": null,
+                                "isConditional": false
+                            }
+                        ]
+                    },
+                    "stockType": "IN_STOCK",
+                    "leadTime": 0,
+                    "lineType": "Venda Normal-L",
+                    "partnerId": "ZOOM",
+                    "skuName": "Smartphone Samsung Galaxy A10s 32GB Dual Chip Android 9.0 Tela 6.2” Octa-Core 4G Câmera 13MP+2MP - Preto",
+                    "experimentSet": [
+                        {
+                            "id": "ACOM_NEW_PAYMENT",
+                            "project": "sacola",
+                            "variant": "NEW"
+                        },
+                        {
+                            "id": "CAT_023_SERV",
+                            "project": "product-page",
+                            "variant": "NEW"
+                        },
+                        {
+                            "id": "O2O_RECOMMENDATION",
+                            "project": "sacola",
+                            "variant": "out"
+                        },
+                        {
+                            "id": "ADD_MORE_PRODUCTS_LINK",
+                            "project": "sacola",
+                            "variant": "OLD"
+                        }
+                    ],
+                    "preSale": false,
+                    "properties": {
+                        "UNIQUE.ID": "1244356193",
+                        "GIFT.ADDRESS.FLAG": "N",
+                        "INVENTORY.RESERVE.ID": "e550ee6a-ff3d-49d9-a151-f7b566a99825-ab5da86e-9400-4683-ae28-d80cf19f999e",
+                        "STOCK.TRANSACTION.ID": "e550ee6a-ff3d-49d9-a151-f7b566a99825",
+                        "SFS": "false",
+                        "buyboxToken": "smartbuybox-acom-v2-212af5f2-b1fd-48af-bdbb-6a3cc2b44246-2021-03-09 13:47:06-0300",
+                        "pricingId": "60476d09d0ad6a001631404b",
+                        "productId": "1244356177",
+                        "cashbackValue": "7.99"
+                    },
+                    "aggregationId": 0
+                }
+            ],
+            "paymentList": [
+                {
+                    "creditCardPayment": {
+                        "type": "CREDIT_CARD",
+                        "amountDue": 799.0,
+                        "dueDate": "2021-03-10T03:00:00Z",
+                        "location": "02",
+                        "status": "AAP",
+                        "brand": "VISA",
+                        "interestAmount": 0.0,
+                        "interestRate": 0.0,
+                        "cardHoldersName": "Vinicius Boquimpani Tiberto",
+                        "maskedCreditCardNumber": "409602####0154",
+                        "encriptedCreditCardNumber": "7d95b457fd94864d2664503f3f721bd07ac06ab62033f1fc21fb0f46690256ad",
+                        "numberOfInstallments": 6,
+                        "expirationMonth": "10",
+                        "expirationYear": "2023",
+                        "cardVerificationCode": "5c262dd00cdfb8b81050cc9437db4d00",
+                        "paymentType": "CARTAO_VISA"
+                    }
+                }
+            ],
+            "freightInfo": {
+                "chargedAmount": 0.0,
+                "actualAmount": 0.0,
+                "commercialAmount": 0.0,
+                "freightTime": 10,
+                "pickupLeadTime": 0,
+                "otmContractId": "GERAL",
+                "calculatedDate": "2021-03-23T03:00:00Z",
+                "dateFrom": "2021-03-23T03:00:00Z",
+                "dateTo": "2021-03-23T03:00:00Z",
+                "text": "receba até 23 de março"
+            },
+            "freighDeliveryType": "CONVENTIONALPRIME",
+            "wareHouseId": "67",
+            "subInventory": "1001",
+            "deliveryPropertyList": {
+                "prime": "true",
+                "NAO.QUEBRAR.EM.NOVO.PEDIDO": "true",
+                "isCutOffApplied": "false",
+                "entrega.tipo.pessoa.vendedor": "NO_TYPE"
+            }
+        }
+    ],
+    "saleAssistantId": "0",
+    "listId": null,
+    "properties": {
+        "deliveryAddressCep": "28545000",
+        "checkout-version": "default-sacola-order",
+        "server": "aws",
+        "os": "Android",
+        "osVersion": "9",
+        "vendor": "Motorola",
+        "type": "smartphone",
+        "mktName": "Moto G6",
+        "model": "XT1925",
+        "appId": "MOBILESITE",
+        "checkoutId": "60e86361-2d21-4fd0-b259-e15b4a6fdadc",
+        "cartId": "55769dc9-c946-409b-bbcb-6768a9b8f1cf",
+        "checkoutIdentityId": "0d960c03-6efb-41a3-b622-42ba531c7769",
+        "cartIdentityId": "d456f69e-4764-4e3d-a190-3ff4de361e70",
+        "orderCashbackTotal": "7.99",
+        "ameFlow": "true",
+        "usuarioclubedecompras": "false",
+        "clubedecompras": "false",
+        "tid": "order-d3d0c2e8-846d-4ee0-a905-ea3de89d0aea",
+        "b2w-uid": "ab578093e2148e0e9f9376d17c559b65775c39d8126cdce79fe35d8719aa149deaf483fcf27e7832849e737e5ec7deda",
+        "user-agent": "Mozilla/5.0 (Linux; Android 9; moto g(6)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.181 Mobile Safari/537.36",
+        "freightPolicyId": "2021-02-23-ACOM-2",
+        "ENCRYPTED.ORDER.ID": "XquTcvLZssZHoclYk2Zc2w==",
+        "fingerprint": "852.0678906037462202192149742",
+        "B2W-SID": "852.0678906037462202192149742",
+        "B2W-PID": "1615214885898.0.5750691677435491",
+        "riskNavigationCookie": "",
+        "employeeId": "",
+        "isPciFlow": "true",
+        "pre-authorized-card-test-ab-value": "false",
+        "has.preauthorized": "true",
+        "new.wallet.customer": "true",
+        "dueDate": "2021-03-11"
+    },
+    "isMarketplace": false
+}
